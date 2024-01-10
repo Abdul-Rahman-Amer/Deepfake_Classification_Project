@@ -7,7 +7,7 @@ https://www.loom.com/share/b8389cb7109e462a9fc8dccd3f0aa5c3?sid=7eaa432e-ab42-49
 ## Q/A
 
 ### 1. Create datasets:
-   I haven't uploaded any as they are too large. However, I uploaded a way to scrape images for the Image Detector and the others can be found on Kaggle as they are open source. 
+   I haven't uploaded any as they are too large. However, I uploaded a way to scrape images for the Image Detector and the others can be found on Kaggle as they are open source. The text was from multiple sources so it is harder to locate but the audio is from: https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition/data
 
 ### 2. Explain the choices
 #### a. For the image detector my goal was to get real photos and fake photos. The fake photos were pulled from a website where you have to pay for their AI generated headshots but I just scraped them by copying the website's html and generating a list of links in which I locally downloaded each image. Same for the headshots I retrieved. The fake images all have a pretty similar format and I didn't want this to trip up the Model so I augmented the images as well which created more data and moved it away from the format the photos are locked in. The last model seemed flawless; but needs more in-depth analysis because flawless can be scary from time to time. 
