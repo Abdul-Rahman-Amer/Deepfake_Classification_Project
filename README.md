@@ -4,6 +4,6 @@
 
 # Next Steps:
 
-### Next steps involve hyper tuning the models, pickling, and deploying them for external use with a proper front end in a front end framework such as React. Alternatively, they can be built into a flask application where the UI is directly interacting with the deployed models. Model performance trackers can be integrated my creating logging of it's performance and the most optimal way to do so would be in AWS and utilizing there logging services as well as establishing chronjobs that run developed tests and return model performance on a daily basis. 
+### Next steps involve hyper tuning the models, pickling, and deploying them for external use with a proper front end in a front end framework such as React. Alternatively, they can be built into a flask application where the UI is directly interacting with the deployed models. Model performance trackers can be integrated in numerous ways by creating logging of it's performance and the most optimal way to do so would be in AWS and utilizing there logging services as well as establishing chronjobs that run developed tests and return model performance on a daily basis to keep an eye for model leakage or under performance. 
 
 ### In addition creating a few models for different use cases will give clients flexibility on what it is they are doing including a UI where they can train pre-built models on there own data and run there own data in there unique environment for securing there data. 
